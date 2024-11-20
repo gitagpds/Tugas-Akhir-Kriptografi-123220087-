@@ -1,0 +1,288 @@
+/* STYLE CSS NAVBAR (SEMUA HTML) */
+
+.all-navbar
+{
+    background-color: #9eb384;
+    display: flex;
+    padding: 5px 5px;
+    justify-content: space-between;
+}
+
+.iconkiriatas
+{
+    margin-left: 125px;
+    margin-top: 8px;
+    font-size: 20px;
+    font-weight: 550;
+}
+
+.bag2
+{
+    display: flex;
+    gap: 1rem;
+    list-style: none;
+    margin-right: 150px;
+    margin-top: 10px;
+    font-size: 16px;
+
+}
+
+.nav-link
+{
+    text-decoration: none;
+    color: grey;
+    /*font-weight: normal;*/
+}
+
+.nav-link.active
+{
+    color:black;
+    font-weight: 500;
+}
+
+/* STYLE CSS HOME HTML */
+
+.section
+{
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    background-color: #faf1e4;
+    font-size: 45px;
+    font-weight: bold;
+    color: black;
+    margin-left: 125px;
+    margin-top: 25px;
+}
+
+.btn-primary
+{
+    background-color: #9eb384 !important;
+    border: none !important;
+    color: black !important;
+    font-weight: bold !important;
+}
+
+.btn-group
+{
+    color: #9eb384 !important;
+}
+
+.btn-outline-primary
+{
+    color: #9eb384 !important;
+    border-color: #9eb384 !important;
+}
+
+.section .img
+{
+    height: 500px;
+
+}
+
+/*STYLE CSS QUOTE HTML*/
+.allquote
+{
+    margin-left: 130px;
+    margin-top: 20px;
+}
+
+.but-add
+{
+    background-color: #9eb384 !important;
+    border: none !important;
+    color: black !important;
+}
+
+.quotebox
+{
+    box-sizing: border-box;
+    width: 1250px;
+    height: 100px;
+
+    margin-right: auto;
+    margin-left: 130px;
+    margin-top: auto;
+    margin-bottom: auto;
+
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.part1
+{
+    box-sizing: border-box;
+    width: 1250px;
+    height: 32px;
+
+    /*padding-left:5px;*/
+    /*padding-top: 3px;*/
+
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    /*padding-left: 10px;*/
+    background-color: #9eb384; 
+    margin-top: 30px;
+    font-size: 15px;
+    color: black;
+}
+
+.kal1
+{
+    margin-top: 0rem;
+    margin-left: 12px;
+    font-size: 14px;
+}
+
+.kal2
+{
+    margin-top: 0rem;
+    margin-left: 1130px;
+    font-size: 14px;
+}
+
+.kal3
+{
+    margin-top: 10px;
+    margin-left: 15px;
+    font-size: 16px;
+    margin-bottom: 1px;
+}
+
+.kal4
+{
+    margin-top: 1px;
+    margin-left: 15px;
+    margin-bottom: 2px;
+    font-style: oblique;
+    color: grey;
+    font-size: 14px;
+}
+
+.kal5
+{
+    margin-top: 0rem;
+    /*margin-left: 12px;*/
+    margin-right: 20px;
+    font-size: 14px;
+}
+
+.kal6
+{
+    margin-top: 0rem;
+    margin-left: 1095px;
+    font-size: 14px;
+}
+
+.kal7
+{
+    margin-top: 10px;
+    margin-left: 15px;
+    font-size: 16px;
+    margin-bottom: 1px;
+}
+
+.kal8
+{
+    margin-top: 1px;
+    margin-left: 15px;
+    margin-bottom: 2px;
+    font-style: oblique;
+    color: grey;
+    font-size: 14px;
+}
+
+/*STYLE CSS ADD FORM QUOTE HTML*/
+
+.formbox
+{
+    box-sizing: border-box;
+    width: 800px;
+    height: 400px;
+
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+
+    position: relative;
+}
+
+.tambahquote
+{
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    padding: 10px;
+    background-color: #9eb384; 
+    margin-top: 20px; 
+    font-size: 20px;
+    font-weight: 650;
+}
+
+.isianform
+{
+    padding-left: 10px;
+    display: inline-block
+    text-align left;
+}
+
+td
+{
+    height: 50px;
+
+}
+
+textarea
+{
+    border: none !important;
+    height: 70px !important; 
+    width: 600px !important;
+    border-radius: 5px !important;
+}
+
+input
+{
+    width: 600px !important;
+}
+
+select
+{
+    border: none !important;
+    height: 40px !important;
+    width: 600px !important;
+    border-radius: 5px !important;
+
+}
+
+.isianform table 
+{
+    width: 100%;
+}
+
+.isianform table td 
+{
+    padding: 10px;
+}
+
+.isianform textarea,
+.isianform input[type="text"],
+.isianform select,
+.isianform input[type="date"] 
+{
+    width: 100%;
+    padding: 5px;
+    margin-top: 3px;
+    margin-left: 60px;
+}
+
+.submitquote 
+{
+    position: absolute;
+    left: 680px;
+    margin-top: 5px;
+}
